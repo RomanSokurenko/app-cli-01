@@ -1,0 +1,28 @@
+{
+  "name": "app-cli-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "start:dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanSokurenko/app-cli-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomanSokurenko/app-cli-01/issues"
+  },
+  "homepage": "https://github.com/RomanSokurenko/app-cli-01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "commander": "^8.2.0"
+  }
+}
